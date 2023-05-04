@@ -16,8 +16,4 @@ if (nome == "Tharlion"){
 
 else{
     console.log(`${nome} não é conhecido!!!`);
-} 
-
-
-
-
+}
