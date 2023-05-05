@@ -65,3 +65,82 @@ else{
 console.log("#########################################################################")
 console.log("---Exercicio 06---")
 
+let array5 = [1,2,3,4,5]
+
+let array3 = [6,7,8]
+
+function poucosElementos(x){
+if (x.length < 5){
+  console.log("Poucos Elementos")
+}
+
+else{
+  console.log("Muitos Elementos")
+}
+}
+
+poucosElementos(array5)
+poucosElementos(array3)
+
+console.log("#########################################################################")
+console.log("---Exercicio 07---")
+
+let cinco = [1,2,3,4,5]
+
+for(let i = 0; i<cinco.length;i++){
+  console.log(cinco[i])
+}
+
+console.log("#########################################################################")
+console.log("---Exercicio 08---")
+
+const car = {
+  "marca":"Ford",
+  "modelo":"Ka",
+  "ano":2015,
+}
+
+console.log(car)
+console.log(car.marca)
+console.log(car.modelo)
+console.log(car.ano)
+
+console.log("#########################################################################")
+console.log("---Exercicio 09---")
+
+let frase = "Uma vez Flamengo, sempre Flamengo"
+
+let transformacaoFrase = frase.split(" ")
+console.log(transformacaoFrase)
+
+for(let i = 0; i < transformacaoFrase.length; i++){
+  console.log(transformacaoFrase[i])
+}
+
+console.log("#########################################################################")
+console.log("---Exercicio 10---")
+
+const calculadora = {
+  soma:function(a,b){
+    return a+b
+  },
+
+  subtracao:function(a,b){
+    return a-b
+  },
+
+  multiplicacao:function(a,b){
+    return a*b
+  },
+
+  divisao:function(a,b){
+    return a/b
+  }
+
+}
+console.log(calculadora.soma(10,10))
+console.log(calculadora.subtracao(10,10))
+console.log(calculadora.multiplicacao(10,10))
+console.log(calculadora.divisao(10,10))
+
+
