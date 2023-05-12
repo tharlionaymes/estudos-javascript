@@ -143,4 +143,4 @@ console.log(calculadora.subtracao(10,10))
 console.log(calculadora.multiplicacao(10,10))
 console.log(calculadora.divisao(10,10))
 
-
+ex008 copy
